@@ -9,8 +9,9 @@ public class Wizard extends Player {
 
     private ArrayList<MythicalCreature> allCompanions;
     private MythicalCreature currentCompanion;
+    private int fireTornado;
 
-    public Wizard(int health, Item equippedItem, String name, ArrayList<MythicalCreature> allCompanions, MythicalCreature currentCompanion) {
+    public Wizard(int health, Item equippedItem, String name, ArrayList<MythicalCreature> allCompanions, MythicalCreature currentCompanion, int fireTornado) {
         super(health, equippedItem, name);
         this.allCompanions = allCompanions;
         this.currentCompanion = currentCompanion;
