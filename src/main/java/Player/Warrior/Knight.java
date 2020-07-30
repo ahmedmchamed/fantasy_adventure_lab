@@ -4,7 +4,7 @@ import Item.Item;
 import Player.Player;
 import Quest.Enemy;
 
-public class Knight extends Warrior implements IAttack{
+public class Knight extends Warrior {
 
     private int armour;
 

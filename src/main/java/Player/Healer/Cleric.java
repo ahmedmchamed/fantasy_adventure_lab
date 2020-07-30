@@ -1,6 +1,7 @@
 package Player.Healer;
 
 import Item.Item;
+import Quest.Enemy;
 
 public class Cleric extends Healer {
 

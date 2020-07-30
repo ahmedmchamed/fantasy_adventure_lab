@@ -6,24 +6,23 @@ import Quest.Enemy;
 
 import java.util.Random;
 
-public class Dwarf extends Warrior implements IAttack{
+public class Dwarf extends Warrior {
 
     private int dodge;
 
-    public Dwarf(int health, Item equippedItem, String name, int dodge) {
+    public Dwarf(int health, Item equippedItem, String name) {
         super(health, equippedItem, name);
-        this.dodge = dodge;
-    }
-
-
-    public void receiveDamage(Enemy enemy) {
-
         Random rand = new Random();
         this.dodge = rand.nextInt(50);
+    }
 
+    public void receiveDamage(Enemy enemy) {
         if (this.dodge > 25) {
             this.health -= enemy.getDealDamage();
         }
     }
 
+    public int getDodge() {
+        return dodge;
+    }
 }

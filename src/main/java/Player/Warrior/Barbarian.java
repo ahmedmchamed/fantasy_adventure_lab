@@ -4,7 +4,7 @@ import Item.Item;
 import Player.Player;
 import Quest.Enemy;
 
-public class Barbarian extends Warrior implements IAttack {
+public class Barbarian extends Warrior {
 
     private int punchAbility;
 

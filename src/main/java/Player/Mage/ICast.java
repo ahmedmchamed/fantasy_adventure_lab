@@ -1,7 +1,7 @@
 package Player.Mage;
 
-public interface ICast {
+import Quest.Enemy;
 
-    int specialCast();
+public interface ICast {
 
 }

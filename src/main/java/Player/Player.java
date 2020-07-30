@@ -21,6 +21,10 @@ public abstract class Player {
         return this.health;
     }
 
+    public void receiveDamage(Enemy enemy) {
+        this.health -= enemy.getDealDamage();
+    }
+
     public ArrayList<Item> getInventory() {
         return this.inventory;
     }
@@ -31,5 +35,9 @@ public abstract class Player {
 
     public void setHealth(int health) {
         this.health += health;
+    }
+
+    public void addToInventory(Item item) {
+        this.inventory.add(item);
     }
 }

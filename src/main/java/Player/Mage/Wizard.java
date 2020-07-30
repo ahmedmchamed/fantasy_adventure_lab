@@ -2,10 +2,11 @@ package Player.Mage;
 
 import Item.Item;
 import Player.Player;
+import Quest.Enemy;
 
 import java.util.ArrayList;
 
-public class Wizard extends Mage {
+public class Wizard extends Mage implements ICast {
 
     private ArrayList<MythicalCreature> allCompanions;
     private MythicalCreature currentCompanion;
@@ -15,6 +16,10 @@ public class Wizard extends Mage {
         super(health, equippedItem, name);
         this.allCompanions = allCompanions;
         this.currentCompanion = currentCompanion;
+    }
+
+    public void receiveDamage(Enemy enemy) {
+        this.health -= enemy.getDealDamage();
     }
 
 }
