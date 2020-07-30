@@ -1,5 +1,7 @@
 package Item;
 
 public abstract class Item {
-    protected
+    protected int damage;
+    protected int healing;
+
 }
