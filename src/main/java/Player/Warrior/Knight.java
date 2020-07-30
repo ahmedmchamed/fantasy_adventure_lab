@@ -3,7 +3,7 @@ package Player.Warrior;
 import Item.Item;
 import Player.Player;
 
-public class Knight extends Warrior {
+public class Knight extends Warrior implements IAttack{
 
     private int armour;
 
@@ -11,4 +11,9 @@ public class Knight extends Warrior {
         super(health, equippedItem, name);
         this.armour = armour;
     }
+
+    public void attack() {
+
+    }
+
 }

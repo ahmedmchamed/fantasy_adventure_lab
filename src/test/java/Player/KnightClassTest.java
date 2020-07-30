@@ -18,7 +18,7 @@ public class KnightClassTest {
 
     @Before
     public void before() {
-        ogre = new Ogre("Michael Blue Ballz",12,5,20);
+        ogre = new Ogre("Michael Blue Ballz",20,5,20);
         sword = new Sword("Master Sword", 20, 0);
         knight = new Knight(120, sword, "Jack", 150);
     }
@@ -36,6 +36,12 @@ public class KnightClassTest {
     @Test
     public void canGetEnemyName() {
         assertEquals("Michael Blue Ballz", ogre.getName());
+    }
+
+    @Test
+    public void canReceiveDamage() {
+        knight.receiveDamage(ogre);
+        assertEquals(100, knight.getHealth());
     }
 
 }

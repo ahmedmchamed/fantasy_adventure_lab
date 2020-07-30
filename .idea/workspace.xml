@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf38668-b1d7-455c-aede-1c87ee00bb54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/IAttack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Ogre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Ogre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Player/KnightClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Player/KnightClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/IAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/IAttack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/KnightClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Player/KnightClassTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.KnightClassTest.canGetEnemyName">
+  <component name="RunManager" selected="JUnit.OgreClassTest.canReceiveDamage">
     <configuration name="KnightClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasy_adventure_lab" />
       <extension name="coverage">
@@ -84,8 +83,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnightClassTest.canReceiveDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasy_adventure_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Player" />
+      <option name="MAIN_CLASS_NAME" value="Player.KnightClassTest" />
+      <option name="METHOD_NAME" value="canReceiveDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OgreClassTest.canReceiveDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasy_adventure_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Enemy" />
+      <option name="MAIN_CLASS_NAME" value="Enemy.OgreClassTest" />
+      <option name="METHOD_NAME" value="canReceiveDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OgreClassTest.canReceiveDamage" />
+        <item itemvalue="JUnit.KnightClassTest.canReceiveDamage" />
         <item itemvalue="JUnit.KnightClassTest.canGetEnemyName" />
         <item itemvalue="JUnit.KnightClassTest" />
       </list>
@@ -117,21 +150,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596112578651">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596113947082">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596112578651" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596112578640">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596113947082" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596113947076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596112578640" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596112578638">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596113947076" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596113947070">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596112578638" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596112578648">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596113947070" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596113947079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596112578648" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596113947079" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package Player;
 
 import Item.Item;
+import Quest.Enemy;
 
 import java.util.ArrayList;
 
@@ -20,6 +21,10 @@ public abstract class Player {
         return this.health;
     }
 
+    public void receiveDamage(Enemy enemy) {
+        this.health -= enemy.getDealDamage();
+    }
+
 
     public ArrayList<Item> getInventory() {
         return this.inventory;
@@ -29,4 +34,7 @@ public abstract class Player {
         return this.name;
     }
 
+    public void setHealth(int health) {
+        this.health = health;
+    }
 }

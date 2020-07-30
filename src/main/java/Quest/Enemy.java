@@ -1,5 +1,11 @@
 package Quest;
 
+import Player.Healer.Cleric;
+import Player.Healer.Healer;
+import Player.Mage.Mage;
+import Player.Player;
+import Player.Warrior.Warrior;
+
 public abstract class Enemy {
 
     protected String name;
@@ -10,6 +16,15 @@ public abstract class Enemy {
         this.name = name;
         this.dealDamage = dealDamage;
         this.health = health;
+    }
+    public void receiveDamageFromWarrior(Warrior warrior) {
+        this.health -= warrior.getEquippedItem().getDamage();
+    }
+    public void receiveDamageFromHealer(Healer healer) {
+        this.health -= healer.getEquippedItem().getDamage();
+    }
+    public void receiveDamageFromMage(Mage mage) {
+        this.health -= mage.getEquippedItem().getDamage();
     }
 
     public String getName() {
