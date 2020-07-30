@@ -3,7 +3,7 @@ package Player.Warrior;
 import Item.Item;
 import Player.Player;
 
-public class Knight extends Player {
+public class Knight extends Warrior {
 
     private int armour;
 

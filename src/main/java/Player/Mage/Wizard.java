@@ -5,7 +5,7 @@ import Player.Player;
 
 import java.util.ArrayList;
 
-public class Wizard extends Player {
+public class Wizard extends Mage {
 
     private ArrayList<MythicalCreature> allCompanions;
     private MythicalCreature currentCompanion;

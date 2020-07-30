@@ -1,9 +1,8 @@
 package Player.Healer;
 
 import Item.Item;
-import Player.Player;
 
-public class Cleric extends Player {
+public class Cleric extends Healer {
 
     private int megaHeal;
 

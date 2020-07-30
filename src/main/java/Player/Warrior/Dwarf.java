@@ -3,7 +3,7 @@ package Player.Warrior;
 import Item.Item;
 import Player.Player;
 
-public class Dwarf extends Player {
+public class Dwarf extends Warrior {
 
     private boolean dodge;
 
