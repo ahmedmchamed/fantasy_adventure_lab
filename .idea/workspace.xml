@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf38668-b1d7-455c-aede-1c87ee00bb54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Item/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Item/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Item/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/HealerItems/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/HealerItems/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/MageItems/FireballScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/MageItems/FireballScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/MageItems/LightningStrikeScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/MageItems/LightningStrikeScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1fOtXYMhOxdbkPW1X97Cah9yfhS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
