@@ -10,4 +10,6 @@ public class Cleric extends Healer {
         super(health, equippedItem, name);
         this.megaHeal = megaHeal;
     }
+
+
 }

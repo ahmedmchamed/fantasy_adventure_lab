@@ -25,7 +25,6 @@ public abstract class Player {
         this.health -= enemy.getDealDamage();
     }
 
-
     public ArrayList<Item> getInventory() {
         return this.inventory;
     }
@@ -35,6 +34,6 @@ public abstract class Player {
     }
 
     public void setHealth(int health) {
-        this.health = health;
+        this.health += health;
     }
 }

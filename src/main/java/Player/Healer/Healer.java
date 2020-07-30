@@ -15,4 +15,8 @@ public abstract class Healer extends Player {
         return this.equippedItem;
     }
 
+    public void healCharacter(Player player) {
+        player.setHealth(this.equippedItem.getHealing());
+    }
+
 }
