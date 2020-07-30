@@ -41,7 +41,8 @@ public class KnightClassTest {
     @Test
     public void canReceiveDamage() {
         knight.receiveDamage(ogre);
-        assertEquals(100, knight.getHealth());
+        assertEquals(120, knight.getHealth());
+        assertEquals(130, knight.getArmour());
     }
 
 }

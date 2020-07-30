@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="4cf38668-b1d7-455c-aede-1c87ee00bb54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player/Healer/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Healer/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/MythicalCreature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/MythicalCreature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/IAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Player/KnightClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Player/KnightClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Healer/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Healer/Healer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Mage/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Mage/Mage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Mage/MythicalCreature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Mage/MythicalCreature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/KnightClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Player/KnightClassTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.HealerClassTest.canHealCharacters">
+  <component name="RunManager" selected="JUnit.KnightClassTest.canReceiveDamage">
     <configuration name="HealerClassTest.canHealCharacters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasy_adventure_lab" />
       <extension name="coverage">
@@ -58,21 +69,6 @@
       <option name="MAIN_CLASS_NAME" value="Player.HealerClassTest" />
       <option name="METHOD_NAME" value="canHealCharacters" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KnightClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fantasy_adventure_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Player" />
-      <option name="MAIN_CLASS_NAME" value="Player.KnightClassTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MageClassTest.getMythicalCreatureName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasy_adventure_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Player" />
+      <option name="MAIN_CLASS_NAME" value="Player.MageClassTest" />
+      <option name="METHOD_NAME" value="getMythicalCreatureName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OgreClassTest.canReceiveDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasy_adventure_lab" />
       <extension name="coverage">
@@ -127,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnightClassTest.canReceiveDamage" />
+        <item itemvalue="JUnit.MageClassTest.getMythicalCreatureName" />
         <item itemvalue="JUnit.HealerClassTest.canHealCharacters" />
         <item itemvalue="JUnit.OgreClassTest.canReceiveDamage" />
-        <item itemvalue="JUnit.KnightClassTest.canReceiveDamage" />
         <item itemvalue="JUnit.KnightClassTest.canGetEnemyName" />
-        <item itemvalue="JUnit.KnightClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -161,21 +173,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596115326103">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596116494977">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596115326103" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596115326099">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116494977" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596116494970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596115326099" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596115326094">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116494970" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596116494968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596115326094" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596115326101">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116494968" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596116494975">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596115326101" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116494975" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1596116415741">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116415741" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1596116415736">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116415736" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1596116415735">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116415735" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1596116415737">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596116415737" />
   </component>
 </project>

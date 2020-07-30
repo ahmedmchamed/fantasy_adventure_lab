@@ -2,6 +2,7 @@ package Player.Healer;
 
 import Item.Item;
 import Player.Player;
+import Quest.Enemy;
 
 public abstract class Healer extends Player {
 
@@ -11,6 +12,7 @@ public abstract class Healer extends Player {
         super(health, name);
         this.equippedItem = equippedItem;
     }
+
     public Item getEquippedItem() {
         return this.equippedItem;
     }
