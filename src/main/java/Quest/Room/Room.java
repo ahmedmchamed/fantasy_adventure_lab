@@ -1,4 +1,4 @@
-package Quest;
+package Quest.Room;
 
 public class Room {
 }

@@ -1,15 +1,14 @@
 package Player.Warrior;
-
-import Item.Item;
 import Player.Player;
-import Quest.Enemy;
+import Item.Item;
+import Quest.EnemyType.Enemy;
 
-public class Barbarian extends Warrior {
+public class Barbarian extends Player {
 
     private int punchAbility;
 
-    public Barbarian(int health, Item equippedItem, String name, int punchAbility) {
-        super(health, equippedItem, name);
+    public Barbarian(String name, int health, Item equippedItem, int punchAbility) {
+        super(name, health, equippedItem);
         this.punchAbility = punchAbility;
     }
 

@@ -1,7 +1,5 @@
 package Quest.EnemyType;
 
-import Quest.Enemy;
-
 public class Ogre extends Enemy {
 
     private int laserBeam;

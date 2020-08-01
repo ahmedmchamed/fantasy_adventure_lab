@@ -1,19 +1,18 @@
 package Player.Mage;
-
-import Item.Item;
 import Player.Player;
-import Quest.Enemy;
+import Item.Item;
+import Quest.EnemyType.Enemy;
 
 import java.util.ArrayList;
 
-public class Wizard extends Mage implements ICast {
+public class Wizard extends Player implements ICast {
 
     private ArrayList<MythicalCreature> allCompanions;
     private MythicalCreature currentCompanion;
     private int fireTornado;
 
-    public Wizard(int health, Item equippedItem, String name, ArrayList<MythicalCreature> allCompanions, MythicalCreature currentCompanion, int fireTornado) {
-        super(health, equippedItem, name);
+    public Wizard(String name, int health, Item equippedItem, ArrayList<MythicalCreature> allCompanions, MythicalCreature currentCompanion, int fireTornado) {
+        super(name, health, equippedItem);
         this.allCompanions = allCompanions;
         this.currentCompanion = currentCompanion;
     }

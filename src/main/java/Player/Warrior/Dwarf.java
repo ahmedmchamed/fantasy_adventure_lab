@@ -1,22 +1,21 @@
 package Player.Warrior;
-
-import Item.Item;
 import Player.Player;
-import Quest.Enemy;
+import Item.Item;
+import Quest.EnemyType.Enemy;
 
 import java.util.Random;
 
-public class Dwarf extends Warrior {
+public class Dwarf extends Player {
 
     private int dodge;
 
-    public Dwarf(int health, Item equippedItem, String name) {
-        super(health, equippedItem, name);
-        Random rand = new Random();
-        this.dodge = rand.nextInt(50);
+    public Dwarf(String name, int health, Item equippedItem) {
+        super(name, health, equippedItem);
     }
 
     public void receiveDamage(Enemy enemy) {
+        Random rand = new Random();
+        this.dodge = rand.nextInt(50);
         if (this.dodge > 25) {
             this.health -= enemy.getDealDamage();
         }

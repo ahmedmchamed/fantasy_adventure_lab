@@ -5,15 +5,15 @@ import Player.Player;
 
 import java.util.ArrayList;
 
-public class Warlock extends Mage {
+public class Warlock extends Player {
 
-    private ArrayList<MythicalCreature> allCompanions;
+    private ArrayList<MythicalCreature> companionsList;
     private MythicalCreature currentCompanion;
     private int groundBurst;
 
-    public Warlock(int health, Item equippedItem, String name, ArrayList<MythicalCreature> allCompanions, MythicalCreature currentCompanion) {
-        super(health, equippedItem, name);
-        this.allCompanions = allCompanions;
+    public Warlock(String name, int health, Item equippedItem, MythicalCreature currentCompanion) {
+        super(name, health, equippedItem);
+        this.companionsList = new ArrayList<MythicalCreature>();
         this.currentCompanion = currentCompanion;
     }
 }
