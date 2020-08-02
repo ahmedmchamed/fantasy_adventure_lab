@@ -1,8 +1,6 @@
 package Player;
-
 import Item.Item;
 import Quest.EnemyType.Enemy;
-
 import java.util.ArrayList;
 
 public abstract class Player {

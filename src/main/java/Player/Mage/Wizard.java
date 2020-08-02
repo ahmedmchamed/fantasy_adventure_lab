@@ -17,8 +17,4 @@ public class Wizard extends Player implements ICast {
         this.currentCompanion = currentCompanion;
     }
 
-    public void receiveDamage(Enemy enemy) {
-        this.health -= enemy.getDealDamage();
-    }
-
 }
