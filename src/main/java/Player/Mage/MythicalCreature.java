@@ -14,6 +14,10 @@ public class MythicalCreature {
         return name;
     }
 
+    public void decreaseHealth(int decreaseHealth) {
+        this.health -= decreaseHealth;
+    }
+
     public int getHealth() {
         return health;
     }

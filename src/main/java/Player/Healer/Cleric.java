@@ -1,13 +1,14 @@
 package Player.Healer;
-import Player.Player;
-import Item.Item;
 
-public class Cleric extends Player {
+import Item.Item;
+import Quest.Enemy;
+
+public class Cleric extends Healer {
 
     private int megaHeal;
 
-    public Cleric(String name, int health, Item equippedItem, int megaHeal) {
-        super(name, health, equippedItem);
+    public Cleric(int health, Item equippedItem, String name, int megaHeal) {
+        super(health, equippedItem, name);
         this.megaHeal = megaHeal;
     }
 

@@ -1,18 +1,23 @@
 package Player.Warrior;
-import Player.Player;
+
 import Item.Item;
-import Quest.EnemyType.Enemy;
+import Player.Player;
+import Quest.Enemy;
 
-public class Barbarian extends Player {
+public class Barbarian extends Warrior implements IAttack{
 
-    private int punchAbility;
+    private int brutality;
 
-    public Barbarian(String name, int health, Item equippedItem, int punchAbility) {
-        super(name, health, equippedItem);
-        this.punchAbility = punchAbility;
+    public Barbarian(int health, Item equippedItem, String name, int brutality) {
+        super(health, equippedItem, name);
+        this.brutality = brutality;
     }
 
     public void receiveDamage(Enemy enemy) {
         this.health -= enemy.getDealDamage();
+    }
+
+    public void attack(Enemy enemy){
+        enemy.decreaseHealth(this.equippedItem.getDamage() * brutality);
     }
 }

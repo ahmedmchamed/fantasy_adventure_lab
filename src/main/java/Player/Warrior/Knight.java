@@ -1,14 +1,15 @@
 package Player.Warrior;
-import Player.Player;
-import Item.Item;
-import Quest.EnemyType.Enemy;
 
-public class Knight extends Player implements IAttack {
+import Item.Item;
+import Player.Player;
+import Quest.Enemy;
+
+public class Knight extends Warrior implements IAttack {
 
     private int armour;
 
-    public Knight(String name, int health, Item equippedItem, int armour) {
-        super(name, health, equippedItem);
+    public Knight(int health, Item equippedItem, String name, int armour) {
+        super(health, equippedItem, name);
         this.armour = armour;
     }
 
@@ -25,8 +26,8 @@ public class Knight extends Player implements IAttack {
         return armour;
     }
 
-    public void attackEnemy(Enemy enemy) {
-
+    public void attack(Enemy enemy) {
+        enemy.decreaseHealth(this.equippedItem.getDamage());
     }
 
 }

@@ -1,9 +1,9 @@
 package Player.Warrior;
 
-import Quest.EnemyType.Enemy;
+import Quest.Enemy;
 
 public interface IAttack {
 
-    void attackEnemy(Enemy enemy);
+    void attack(Enemy enemy);
 
 }

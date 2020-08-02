@@ -1,5 +1,7 @@
 package Quest.EnemyType;
 
+import Quest.Enemy;
+
 public class Troll extends Enemy {
 
     private int groundSmash;
