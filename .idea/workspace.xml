@@ -4,39 +4,55 @@
     <list default="true" id="4cf38668-b1d7-455c-aede-1c87ee00bb54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item/HealerItems/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/HealerItems/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item/MageItems/FireballScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/MageItems/FireballScroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item/MageItems/LightningStrikeScroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/MageItems/LightningStrikeScroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Axe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Club.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item/WarriorItems/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Healer/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Healer/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Healer/IHeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/ICast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/ICast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Warlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player/Mage/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Mage/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Ogre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/IAttackEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player/Warrior/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player/Warrior/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Demon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Demon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Ogre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Ogre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/EnemyType/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Quest/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quest/Room/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Player/HealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Player/HealerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Player/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Player/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Player/MageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Player/MageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Item/HealerItems/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/HealerItems/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Item/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Item/MageItems/FireballScroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/MageItems/FireballScroll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Item/MageItems/LightningStrikeScroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/MageItems/LightningStrikeScroll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Item/WarriorItems/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/WarriorItems/Axe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Item/WarriorItems/Club.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/WarriorItems/Club.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Item/WarriorItems/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Item/WarriorItems/Sword.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Healer/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Healer/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Player/Healer/Healer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Player/Mage/Mage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Healer/IHeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Healer/IHeal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player/Mage/ICast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Mage/ICast.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Mage/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Mage/Warlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Mage/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Mage/Wizard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/Barbarian.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/IAttack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/IAttack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player/Warrior/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Player/Warrior/Warrior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Demon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Demon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Ogre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Ogre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Troll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Quest/EnemyType/Troll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Enemy/OgreClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/DwarfClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/HealerClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/KnightClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/MageClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fantasy_adventure_lab.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/HealerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Player/HealerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Player/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Player/KnightTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +62,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -75,32 +91,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.KnightTest">
-    <configuration name="All in fantasy_adventure_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fantasy_adventure_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Enemy in fantasy_adventure_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fantasy_adventure_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Enemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Enemy" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KnightClassTest.canReceiveDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HealerTest.canHealPlayer">
+    <configuration name="HealerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasy_adventure_lab" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +104,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Player" />
-      <option name="MAIN_CLASS_NAME" value="Player.KnightClassTest" />
-      <option name="METHOD_NAME" value="canReceiveDamage" />
+      <option name="MAIN_CLASS_NAME" value="Player.HealerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealerTest.canHealPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasy_adventure_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Player" />
+      <option name="MAIN_CLASS_NAME" value="Player.HealerTest" />
+      <option name="METHOD_NAME" value="canHealPlayer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,6 +141,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnightTest.canGetPlayerType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fantasy_adventure_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Player" />
+      <option name="MAIN_CLASS_NAME" value="Player.KnightTest" />
+      <option name="METHOD_NAME" value="canGetPlayerType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Player in fantasy_adventure_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fantasy_adventure_lab" />
       <extension name="coverage">
@@ -147,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HealerTest.canHealPlayer" />
+        <item itemvalue="JUnit.KnightTest.canGetPlayerType" />
+        <item itemvalue="JUnit.HealerTest" />
         <item itemvalue="JUnit.KnightTest" />
         <item itemvalue="JUnit.Player in fantasy_adventure_lab" />
-        <item itemvalue="JUnit.Enemy in fantasy_adventure_lab" />
-        <item itemvalue="JUnit.All in fantasy_adventure_lab" />
-        <item itemvalue="JUnit.KnightClassTest.canReceiveDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -185,25 +211,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1596281968894" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596367746902">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596382484003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596302586168" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596382484003" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596367746902" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596367746899">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596382484000">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596302586167" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596382484000" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596367746899" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596367746898">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596382483999">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596302586166" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596382483999" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596367746898" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596367746900">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596382484001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596302586167" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596382484001" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596367746900" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1596130059807">
       <screen x="0" y="0" width="1440" height="900" />
@@ -221,5 +247,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1596130059807" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596396555448">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596396555448" />
   </component>
 </project>

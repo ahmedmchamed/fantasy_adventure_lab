@@ -1,16 +1,17 @@
 package Player.Warrior;
+import Player.PlayerType;
 import Player.Player;
 import Item.Item;
 import Quest.EnemyType.Enemy;
 
 import java.util.Random;
 
-public class Dwarf extends Player {
+public class Dwarf extends Player implements IAttackEnemy {
 
     private int dodge;
 
-    public Dwarf(String name, int health, Item equippedItem) {
-        super(name, health, equippedItem);
+    public Dwarf(String name, int health, Item equippedItem, PlayerType playerType) {
+        super(name, health, equippedItem, playerType);
     }
 
     public void receiveDamage(Enemy enemy) {
@@ -23,5 +24,9 @@ public class Dwarf extends Player {
 
     public int getDodge() {
         return dodge;
+    }
+
+    public void attackEnemy(Enemy enemy) {
+        enemy.decreaseHealth(this.equippedItem.getDamage());
     }
 }

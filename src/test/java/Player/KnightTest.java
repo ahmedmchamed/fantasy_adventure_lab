@@ -14,8 +14,8 @@ public class KnightTest {
 
     @Before
     public void before() {
-        sword = new Sword("Chillrend", 20, 0);
-        knight = new Knight("Bazooka", 150, sword, 150);
+        sword = new Sword("Chillrend", 20, 0, PlayerType.WARRIOR);
+        knight = new Knight("Bazooka", 150, sword, PlayerType.WARRIOR, 150);
     }
 
     @Test
@@ -26,6 +26,11 @@ public class KnightTest {
     @Test
     public void canGetHealth() {
         assertEquals(150, knight.getHealth());
+    }
+
+    @Test
+    public void canGetPlayerType() {
+        assertEquals(PlayerType.WARRIOR, knight.getPlayerType());
     }
 
 }
